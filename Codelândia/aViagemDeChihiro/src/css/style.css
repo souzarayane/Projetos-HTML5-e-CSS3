@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+body{
+    background-color: rgb(26,72,85);
+    background-image: linear-gradient(270deg, rgba(26,72,85,1) 0%, rgba(98,142,117,1) 100%, rgba(249,249,249,1) 100%);
+}
+
+/*******************************************HEADER****************************************************/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 30px;
+}
+
+#logo img{
+    width: 110px;
+    height: 60px;
+    margin-left: 86px;
+}
+
+#social-media{
+    margin-right: 100px;
+}
+
+#social-media a{
+    color: #f9f9f9;
+    padding-left: 20px;
+}
+
+/*******************************************CONTAINER****************************************************/
+#main{
+    display: flex;
+    justify-content: space-around;
+}
+
+#principal{
+    color: #f9f9f9;
+    margin-top: 70px;
+}
+
+#titulos h3, h1{
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+#titulos h1{
+    font-size: 4rem;
+    font-weight: bold;
+    max-width: 400px;
+    line-height: 1.0;
+}
+
+#titulos p{
+    max-width: 410px;
+    line-height: 2;
+    margin-top: 25px;
+}
+
+#titulos button{
+    margin-top: 50px;
+}
+
+.btn{
+    background-color: #658e76;
+    color: #f9f9f9;    
+    width: 200px;
+    height: 45px;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    transform: skew(-20deg);
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+#btn1 i{
+    padding-right: 12px;
+}
+
+#btn2{
+    background-color: transparent;
+    border: 3px solid #658e76;
+}
+
+#imagem-principal img{
+    width: 430px;
+    height: 370px;
+    margin-top: 55px;
+}
+
+/******************************************RESPONSIVO*******************************************************/
+@media screen and (max-width: 768px){
+    #logo img{
+        margin-left: 20px;
+    }
+    
+    #social-media{
+        margin-right: 25px;
+    }
+
+    #main{
+        display: flex;
+        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
+    }
+
+    #btn2{
+        display: none;
+    }
+
+    #imagem-principal img{
+        width: 350px;
+        height: 280px;
+        margin-top: -60px;
+        padding-top: 20px;
+    }
+
+    #titulos{
+        margin-top: -30px;
+    }
+
+    #titulos p{
+        max-width: 410px;
+        line-height: 2;
+        margin-top: 10px;
+    }
+
+    #titulos button{
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+}
