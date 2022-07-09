@@ -1,5 +1,5 @@
 # Efeito Slider
-<img src="https://github.com/souzarayane/efeitoSlider/blob/main/Efeito%20Slider.png" style="width: 50%; height: 50%">
+<img src="https://github.com/souzarayane/Projetos-HTML5-e-CSS3/blob/main/efeitoSlider/src/img/Efeito%20Slider.png" style="width: 50%; height: 50%">
 <ul>
   <li>Criando efeito slider usando apenas HTML5 e CSS3. </li> 
   <li>Tutorial criado por <a href="https://www.instagram.com/sujeitoprogramador/">@sujeitoprogramador</a> (perfil do instagram). </li> 
