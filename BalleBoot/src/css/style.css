@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@100;200;300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: rgb(109,137,130);
+    background: linear-gradient(180deg, rgba(109,137,130,1) 0%, rgba(115,142,133,1) 29%, rgba(171,164,146,1) 84%);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-img{
+    height: 72px
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    color: #fff2e7;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.conteudo{
+    border-top: 0.4px dotted #fff2e7;
+    margin-bottom: 48px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.titulo-principal{
+    font-family: 'Indie Flower', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #fff2e7;
+}
+
+.subtitulo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ecd6c4;
+}
+
+button{
+    background-color: #ecd6c4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2f2325;
+}
+
+.img-principal{
+    height: 430px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.terceiro-titulo{
+    border-top: 0.4px dotted #fff2e7;
+    padding-top: 48px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 400;
+    font-size: 28px;
+    color: #fff2ef;
+    margin-bottom: 16px;
+}
+
+.paragrafo-secundario{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+}
+
+footer{
+    padding: 32px;
+    border-top: 0.4px dotted #fff2e7;
+}
+
+.rodape-img{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
