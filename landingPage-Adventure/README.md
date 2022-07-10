@@ -1,5 +1,5 @@
 # :evergreen_tree: Landing Page Adventure
-* Uma landing page com o tema aventura. 
+* Uma landing page de um jogo com o tema aventura. 
 * Aula ministrada pela ![DankiCode](https://cursos.dankicode.com/)
 
 ## :computer: Tecnologias Usadas:
