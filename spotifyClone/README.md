@@ -1,7 +1,8 @@
-# spotifyClone
-## Clone do Spotify 
-Aula ministrada por DankiCode para fins de estudo.
-Tecnologias usadas no projeto:
+# :musical_note: Spotify Clone
+
+Projeto clone da página do Spotify
+* Aula ministrada por [DankiCode](https://cursos.dankicode.com). 
+## :computer: Tecnologias usadas no projeto:
 * HTML5
 * CSS3
 
