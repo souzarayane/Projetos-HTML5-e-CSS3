@@ -1,0 +1,279 @@
+/*Classes Gerais*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    background: rgba(0, 0, 0, 0.2);
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.clear{
+    clear: both;
+}
+
+.w50{
+    width: 50%;
+    float: left;
+}
+
+.w33{
+    width: 33.3%;
+    float: left;
+}
+
+.botao{
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-size: 17px;
+    background-color: #009688;
+    color: white;
+}
+
+/*Header*/
+header .container{
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+header .container h1{
+    font-weight: 300;
+}
+
+header .container nav ul{
+    float: right;
+}
+
+header .container nav ul li{
+    display: inline-block;
+}
+
+header .container nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 0 30px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+header .container nav ul li a:hover{
+    text-decoration: underline;
+}
+
+header .container nav ul li a span{
+    font-weight: 500;
+}
+
+/*Section bg-fundo*/
+#bg-fundo{
+    background: url(/img/bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    position: relative;
+    z-index: 1;
+}
+
+#bg-fundo .container{
+    padding: 100px 0;
+}
+
+#bg-fundo h1{
+    color: #009688;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+#bg-fundo > .container{
+	position: relative;
+	z-index: 2;
+}
+
+.txt p{
+    color: white;
+    font-size: 18px;
+}
+
+#bg-fundo button{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 300%);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#bg-fundo button:hover{
+    background-color: #7ac8be;
+}
+
+/*Section Experiência do Usuário*/
+#exp-usuario{
+    padding: 30px 0;
+}
+
+#exp-usuario h2{
+    font-weight: 400;
+    color: #009688;
+    text-align: center;
+}
+
+#exp-usuario .w33 {
+    text-align: center;
+    padding: 20px 10px;
+}
+
+#exp-usuario .w33 i{
+    color:#009688;
+}
+
+/*Section Equipe*/
+#equipe{
+    background-color: rgb(228, 222, 222);
+    padding: 20px 0;
+}
+
+#equipe h2{
+    color: #009688;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+#equipe .circulo{
+    width: 70px;
+    height: 70px;
+    background-color: grey;
+    border-radius: 50%;
+    position: absolute;
+    padding-top: 20px;
+}
+
+#equipe .descricao{
+    position: relative;
+    padding-top: 10px;
+    padding-left: 80px ;
+ }
+
+#equipe .funcionario h4{
+    color: #009688;
+    font-weight: 400;
+}
+
+#equipe .funcionario p{
+    text-align: justify;
+}
+
+#equipe button{
+    margin: 20px 0;
+}
+
+#equipe button:hover{
+    background: #7ac8be;
+}
+
+#equipe #descricao-sobre{
+    margin-left: 50px;
+}
+
+/*Section Lista*/
+#lista{
+    background: #7ac8be;
+    padding: 20px 0;
+}
+
+#lista .w50 h2{
+    color: white;
+    font-weight: 300;
+}
+
+#lista .w50 input[type=text]{
+    width: calc(90% - 120px);
+    height: 50px;
+    border: none;
+}
+
+#lista .w50 input[type=submit]:hover{
+    cursor: pointer;
+    background: #63afa5;
+}
+
+/*Section Cartão*/
+#cartao{
+    padding: 50px 0;
+}
+
+#cartao .w33{
+    padding: 50px;
+}
+
+#cartao .w33 img{
+    width: 100%;
+}
+
+#cartao .w33 h4{
+    color: #009688;
+    font-weight: 400;
+}
+
+/*Footer Rodapé1*/
+#rodape1{
+    background: #63afa5;
+    padding: 20px 0;
+    height: 150px;
+}
+
+#rodape1 .w33 h4{
+    color: white;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+#rodape1 .w33 p{
+    color: white;
+}
+
+#rodape1 .w33 a{
+    color: white;
+    text-decoration: none;
+}
+
+#rodape1 .w33 a:hover{
+    text-decoration: underline;
+}
+
+#rodape1 .w33 i{
+    margin-left: 10px;
+}
+
+/*Footer Rodapé2*/
+#rodape2{
+    background: #009688;
+    height: 100px;
+}
+
+#rodape2 p{
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
