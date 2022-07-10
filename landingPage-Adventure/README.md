@@ -7,4 +7,4 @@
 * CSS3
 
 ## :small_orange_diamond: Meu Resultado:
-<img src="" width="50%" />
+<img src="https://github.com/souzarayane/Projetos-HTML5-e-CSS3/blob/main/landingPage-Adventure/src/img/1HomeDevs.png" width="50%" height="50%" />
