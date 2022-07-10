@@ -6,4 +6,4 @@
 <p><strong>acesso em</strong>: 12/11/2020 às 13h</p>
 
 ## :small_orange_diamond: Meu Resultado:
-<img src="" width="50%" />
+<img src="https://github.com/souzarayane/Projetos-HTML5-e-CSS3/blob/main/E-mail%20Marketing/src/img/Propaganda.jpg" width="50%" />
