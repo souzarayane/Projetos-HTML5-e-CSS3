@@ -1,2 +1,10 @@
-# landingPage-Adventure
-Uma landing page para fins de treino e estudo. Aula ministrada pela DankiCode, usando HTML5 e CSS3.
+# :evergreen_tree: Landing Page Adventure
+* Uma landing page com o tema aventura. 
+* Aula ministrada pela ![DankiCode](https://cursos.dankicode.com/)
+
+## :computer: Tecnologias Usadas:
+* HTML5
+* CSS3
+
+## Meu Resultado:
+<img src="" width="50%" />
