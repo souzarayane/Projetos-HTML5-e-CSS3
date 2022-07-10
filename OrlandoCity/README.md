@@ -7,4 +7,4 @@ Um site com o tema do time de futebol Orlando City.
 * Bootstrap
 * JavaScript
 
-<img src="https://media-exp1.licdn.com/dms/image/C4E22AQHFYkEQxGx1dA/feedshare-shrink_1280/0/1630762678106?e=1635379200&v=beta&t=UCEwFvCw8JQO0fmmIRPz3WvOvi1pfYDR2OiwAx2i43M" width="50%" />
+<img src="https://github.com/souzarayane/Projetos-HTML5-e-CSS3/blob/main/OrlandoCity/src/img/Orlando%20City.fw.png" width="50%" />
