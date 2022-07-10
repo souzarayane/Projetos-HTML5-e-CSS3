@@ -1,0 +1,300 @@
+:root{
+    --purple: rgb(92, 5, 92);
+    --white: rgb(248, 240, 240);
+    --blue: rgb(5, 5, 128);
+    --gray: gray;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.clear{
+    clear: both;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background: rgba(0, 0, 0, 0.2);
+    left: 0;
+    top: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+/*HEADER*/
+header{
+    width: 100%;
+    height: 90px;
+    padding: 0 2%;
+    background-color: var(--purple);
+}
+
+header .center h1{
+    color: var(--white);
+    padding: 30px;
+}
+
+header .center span{
+    color: var(--gray);
+    text-shadow: 0.1em 0.1em #333;
+}
+
+/*SECTION BANNER*/
+section#container-banner{
+    padding: 0 2%;
+    width: 100%;
+    height: 557px;
+    background-image: url(/assets/pexels-mateusz-dach-450035.jpg);
+    background-position: center;
+    background-size: cover;
+    color: var(--gray);
+}
+
+section#container-banner > .center{
+    height: 100%;
+}
+
+section#container-banner .form{
+    width: 400px;
+    height: calc(100% + 30px);
+    background-color: white;
+    float: right;
+    position: relative;
+    top: -15px;
+    border: 8px solid rgba(120, 120, 120, 0.5);
+    background-clip: padding-box;
+    padding: 10px;
+}
+
+section#container-banner .form h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
+    text-align: center;
+}
+
+section#container-banner .form p, 
+section#container-banner .form button{
+    margin: 20px 0;
+}
+
+section#container-banner .form button{
+    width: 280px;
+    height: 45px;
+    background-color: var(--purple);
+    color: var(--white);
+    font-size: 18px;
+    display: inline-block;
+    border: none;
+}
+
+section#container-banner .form button:hover{
+    background-color: rgb(58, 2, 58);
+}
+
+section#container-banner .button-container{
+    text-align: center;
+}
+
+.input-container{
+    margin-top: 20px;
+}
+
+.input-container span{
+    display: inline-block;
+    width: 100%;
+    color: rgb(48, 46, 46);
+}
+
+.input-container input[type=text],
+.input-container input[type=email],
+.input-container input[type=tel]{
+    width: 344px;
+    height: 55px;
+    border: 1px solid #ccc;
+    margin-top: 8px;
+}
+
+.container-list{
+    float: left;
+    width: 619px;
+    height: 268px;
+    background-color: rgba(177, 169, 169, 0.9);
+    margin-top: 90px;
+    padding: 70px;
+    color: var(--white);
+}
+
+.container-list ul{
+    list-style-position: inside;
+}
+
+.container-list ul li{
+    margin-top: 18px;
+}
+
+
+/*SECTION TEXT*/
+section#text{
+    padding: 70px 2%;
+    background-color: #ccc;
+    color: var(--gray);
+    text-align: center;
+}
+
+section#text h2{
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+
+section#text p{
+    width: 100%;
+    display: inline-block;
+    text-align: justify;
+    margin: 15px 0;
+}
+
+.arrow{
+    width: 40px;
+    height: 40px;
+    background-image: url(/assets/arrow.png);
+    background-size: 100% 100%;
+    position: relative;
+    top: 90px;
+    left: 50%;
+    margin-left: -20px;
+}
+
+/*SECTION COURSES*/
+section#courses{
+    padding: 90px 2%;
+}
+
+section#courses h2{
+    color: var(--gray);
+    font-weight: 300;
+    text-align: center;
+}
+
+section#courses h3{
+    color: var(--gray);
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+section#courses p{
+    color: var(--gray);
+}
+
+.container-courses{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container-single{
+    float: left;
+    width: 33.3%;
+    padding: 30px;
+}
+
+.container-single:last-child{
+    margin-right: 0;
+}
+
+.container-single p{
+    padding: 10px 25px;
+    text-align: justify;
+}
+
+.container-single img{
+    width: 80px;
+
+}
+
+/*FOOTER*/
+footer{
+    padding: 30px 0;
+    background-color: var(--purple);
+}
+
+footer p{
+    text-align: center;
+    color: var(--white);
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width: 1024px){
+    header{
+        width: 100%;
+        height: auto;
+        padding: 15px 0;
+        text-align: center;
+    }
+    
+    section#container-banner{
+        padding: 40px 2%;
+        width: 100%;
+        height: 100%;
+        color: var(--gray);
+        text-align: center;
+    }
+
+    section#container-banner .form{
+        max-width: 400px;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        float: right;
+        top: 0;
+    }
+
+    .container-list{
+        float: left;
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        padding: 30px 0;
+        color: var(--white);
+        display: inline-block;
+    }
+
+    .input-container input[type=text],
+    .input-container input[type=email],
+    .input-container input[type=tel]{
+        width: 100%;
+        height: 55px;
+    }
+
+    section#container-banner .form button{
+        max-width: 280px;
+		height: 56px;
+		width: 100%;
+    }
+
+    .container-single{
+        float: none;
+        width: 100%;
+        padding: 30px;
+        max-width: 600px;
+        display: inline-block;
+    }
+
+}
