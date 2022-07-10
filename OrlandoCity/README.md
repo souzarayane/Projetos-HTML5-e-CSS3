@@ -1,7 +1,7 @@
-# OrlandoCity
+# :soccer: OrlandoCity
 Um site com o tema do time de futebol Orlando City.
 * Aula ministrada por Joao Rangel e Glaucio Santos da <a href="https://www.udemy.com/">Udemy</a>.
-## Tecnologias usadas no projeto:
+## :computer: Tecnologias usadas no projeto:
 * HTML5
 * CSS3
 * Bootstrap
